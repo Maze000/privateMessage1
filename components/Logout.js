@@ -2,14 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function Logout() {
-                                                
-
     const navigate = useNavigate();
-
-    
-
-
-
 
     const handleLogout = () => {
 
@@ -20,27 +13,23 @@ function Logout() {
             .then(response => {
                 if (response.ok) {
                     
-
-                    console.log('el token ha sido borrado'); 
                     localStorage.removeItem('token'); 
-                    
-
 
                     navigate('/');
 
                 } else {
 
-                    throw new Error('Falló el cierre de sesión');
+                    throw new Error('Erro logout');
                 }
             })
             .catch(error => {
-                console.error('Error al intentar cerrar sesión:', error);
+                console.error('Error logut:', error);
                 alert('Error al intentar cerrar sesión');
             });
     };
 
     return (
-        <button className="button7"  onClick={handleLogout}>Cerrar Sesión</button>
+        <button className="button7"  onClick={handleLogout}>Sign off</button>
 
     );
 }
