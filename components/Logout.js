@@ -26,7 +26,7 @@ function Logout() {
                     
 
 
-                    navigate('/login');
+                    navigate('/');
 
                 } else {
 
