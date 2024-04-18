@@ -1,0 +1,72 @@
+/* Estilos generales del contenedor */
+.login-container {
+   
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-title {
+    color: #333;
+    text-align: center;
+  }
+  
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-text,
+  .input-password {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+  }
+  
+  .btn-login,
+  .btn-signup {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .btn-login {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-login:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos específicos para el botón de registro */
+  .btn-signup {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .btn-signup:hover {
+    background-color: #565e64;
+  }
+  
