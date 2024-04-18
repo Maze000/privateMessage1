@@ -78,7 +78,8 @@ module.exports = (app, passport) => {
             return res.status(401).json({ message: 'Autenticación fallida' });
           }
          
-         const token = jwt.sign({ userId: user._id }, SECRET_KEY, { expiresIn: '1m' });
+          const email = user.local.email;
+			const token = jwt.sign({ userId: user._id, email :email }, SECRET_KEY, { expiresIn: '5m' });
 
 
 
