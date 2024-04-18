@@ -1,21 +1,15 @@
 
-//const path = require('path');
 
 const jwt = require('jsonwebtoken');
 
-//const User = require('../config/user.js');
-//const Message = require('../config/messageSchema.js');
-const { scheduleMessage } = require('./messageScheduler'); // Asume que esta es la ubicación de tu función
+
+const { scheduleMessage } = require('./messageScheduler'); 
 const { User, Message } = require('../config/user.js'); 
 const SECRET_KEY = 'Marmor1$';
 module.exports = (app, passport) => {
 
 
-	//app.post('/login', passport.authenticate('local-login', {
-	//	successRedirect: '/comprar',
-	//	failureRedirect: '/signup',
-	//	failureFlash: true
-	//}));
+	
 
   app.post('/schedule-message', (req, res) => {
     const { senderId, receiverId, content, sendDateTime } = req.body;
