@@ -11,8 +11,8 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 mongoose.Promise = global.Promise;
 
-const { url } = require('./config/database.js');
-mongoose.connect(url)
+
+mongoose.connect(env.MONGODB_URI)
 .then(() => console.log('Conexión a MongoDB establecida.'))
 .catch(err => console.error('Error al conectar con MongoDB:', err));
 
