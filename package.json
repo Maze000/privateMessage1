@@ -4,7 +4,7 @@
   "description": "pago",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node serverx.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "maze",
