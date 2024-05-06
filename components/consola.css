@@ -1,4 +1,4 @@
-/* Estilos Generales */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f2f5;
@@ -52,7 +52,7 @@ body {
 
 
 .button2 {
-    background-color: #d27c0b; /* Green */
+    background-color: #d27c0b; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -70,7 +70,7 @@ body {
 }
 
 .button3 {
-    background-color: #bb2cb9; /* Green */
+    background-color: #bb2cb9; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -88,7 +88,7 @@ body {
 }
 
 .button4 {
-    background-color: #16a849; /* Green */
+    background-color: #16a849;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -106,7 +106,7 @@ body {
 }
 
 .button5 {
-    background-color: #af4c91; /* Green */
+    background-color: #af4c91; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -124,7 +124,7 @@ body {
 }
 
 .button6 {
-    background-color: #864caf; /* Green */
+    background-color: #864caf; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -142,7 +142,7 @@ body {
 }
 
 .button7 {
-    background-color: #ffad2a; /* Green */
+    background-color: #ffad2a; 
     border: none;
     color: white;
     padding: 10px 20px;
