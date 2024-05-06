@@ -1,4 +1,4 @@
-/* Estilos generales del contenedor */
+
 .login-container {
    
     background-color: #f4f4f4;
@@ -60,7 +60,7 @@
     background-color: #0056b3;
   }
   
-  /* Estilos específicos para el botón de registro */
+ 
   .btn-signup {
     background-color: #6c757d;
     color: white;
