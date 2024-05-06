@@ -1,4 +1,4 @@
-/* Estilos del contenedor principal */
+
 .signup-container {
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
     margin-bottom: 20px;
   }
   
-  /* Estilos del formulario y sus elementos */
+  
   .signup-form {
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@
     font-size: 12px;
   }
   
-  /* Botón de registro */
+ 
   .signup-btn-submit {
     padding: 10px;
     color: white;
@@ -52,7 +52,7 @@
     background-color: #0056b3;
   }
   
-  /* Botón para ir a la página de login */
+  
   .signup-btn-login {
     margin-top: 10px;
     padding: 10px;
